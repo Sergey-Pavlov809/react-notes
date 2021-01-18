@@ -1,17 +1,15 @@
 import './App.css';
 
-const test = () =>{
-  return (
-    <div>
-      head
+const mineEl = () =>{
+  return (<div>
+      <p>asdqwe</p>
     </div> 
   )
 }
 
 const App = () => {
-  return (
-    <div className="App">
-      <test />
+  return (<div className="App">
+      <mineEl />
     </div>
   );
 }
