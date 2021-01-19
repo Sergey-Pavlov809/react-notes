@@ -1,6 +1,6 @@
 import './App.css';
 
-const mineEl = () =>{
+const MineEl = () =>{
   return (<div>
       <p>asdqwe</p>
     </div> 
@@ -9,7 +9,8 @@ const mineEl = () =>{
 
 const App = () => {
   return (<div className="App">
-      <mineEl />
+      <MineEl />
+      sdfs
     </div>
   );
 }
