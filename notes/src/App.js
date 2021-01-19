@@ -1,16 +1,17 @@
+import AddTask from './AddTask/AddTask';
 import './App.css';
+import ContainerOfTasks from './ContainerOfTasks/ContainerOfTasks';
+import Header from './Header/Header';
 
-const MineEl = () =>{
-  return (<div>
-      <p>asdqwe</p>
-    </div> 
-  )
-}
+
+
 
 const App = () => {
   return (<div className="App">
-      <MineEl />
-      sdfs
+    <Header />
+    <ContainerOfTasks />
+    <AddTask />
+
     </div>
   );
 }
